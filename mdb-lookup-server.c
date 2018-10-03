@@ -1,5 +1,7 @@
 /*
- * For this project, my goal was to write a program called mdb-lookup-server.c that lets the user see what is inside the database and search for a particular name or message. The program communicates with the client via a socket and reads and writes using the socket.
+ * For this project, my goal was to write a program called mdb-lookup-server.c that lets the user see what is inside the 
+ database and search for a particular name or message. The program communicates with the client via a socket and reads and 
+ writes using the socket.
  */
 
 #include <stdio.h>
