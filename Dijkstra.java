@@ -21,7 +21,6 @@ import java.io.BufferedReader;
 
 public class Dijkstra {
 
-    // Keep a fast index to nodes in the map
     private Map<String, Vertex> vertexNames;
 
     public Dijkstra() {
@@ -173,9 +172,7 @@ public class Dijkstra {
 
     // MY CODE ENDS HERE
 
-    /**
-     * Prints out the adjacency list of the dijkstra for debugging
-     */
+
     public void printAdjacencyList() {
 	for (String u : vertexNames.keySet()) {
 	    StringBuilder sb = new StringBuilder();
