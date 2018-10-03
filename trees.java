@@ -217,9 +217,7 @@ import java.util.List;
 // AvlTree class
 
 /**
- * Implements an AVL tree. Note that all "matching" is based on the compareTo
- * method.
- * 
+ * Implements an AVL tree. Note that all "matching" is based on the compareTo method.
  * @author Mark Allen Weiss
  */
 
