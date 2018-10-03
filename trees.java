@@ -17,21 +17,16 @@
  * ExpressionTree.java
  */
 
-// Represents an expression tree
 public class ExpressionTree {
 
     private ExpressionNode root;
 
-    // creates anew expression tree from the postfix expression
     public ExpressionTree(String postfix) {
-	// create empty stack
 	MyStack<ExpressionNode> stack = new MyStack<>();
 
-	// split into tokens
 	String[] tokens = postfix.split("[ ]+");
 
 	for (int i = 0; i < tokens.length; i++) {
-	    // get token
 	    String token = tokens[i];
 
 	    if (isOperator(token)) { // if operator
@@ -46,21 +41,17 @@ public class ExpressionTree {
 	    }
 	}
 
-	// last node int stack is the root of tree
 	root = stack.pop();
     }
 
-    // check if the token is an opertor
     private boolean isOperator(String s) {
 	return s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/");
     }
 
-    // evaluate value of expression
     public int eval() {
 	return eval(root);
     }
 
-    // helper method to evaluate the expression with the current node
     private int eval(ExpressionNode current) {
 	if (current.isDataNode()) // data node
 	    return current.data;
@@ -68,7 +59,6 @@ public class ExpressionTree {
 	    return eval(eval(current.left), current.operator, eval(current.right));
     }
 
-    // evaluate a operator and two operands
     private int eval(int x, char op, int y) {
 	int result = 0;
 	switch (op) {
@@ -92,12 +82,10 @@ public class ExpressionTree {
 	return result;
     }
 
-    // postfix expression
     public String postfix() {
 	return postfix(root);
     }
 
-    // helper method for postfix expression
     private String postfix(ExpressionNode current) {
 	if (current.isDataNode())
 	    return current.data + "";
@@ -105,12 +93,10 @@ public class ExpressionTree {
 	    return postfix(current.left) + " " + postfix(current.right) + " " + current.operator;
     }
 
-    // prefix expression
     public String prefix() {
 	return prefix(root);
     }
 
-    // helper method for prefix expression
     private String prefix(ExpressionNode current) {
 	if (current.isDataNode())
 	    return current.data + "";
@@ -118,14 +104,11 @@ public class ExpressionTree {
 	    return current.operator + " " + prefix(current.left) + " " + prefix(current.right);
     }
 
-    // infix expression
     public String infix() {
 	return infix(root);
     }
 
-    
-    // helper method for infix expression 
-    private String infix(ExpressionNode current) {
+        private String infix(ExpressionNode current) {
 	if (current.isDataNode())
 	    return current.data + "";
 	else
@@ -149,14 +132,11 @@ public class ExpressionTree {
 	}
 
 	
-	// data node has no children
 	public ExpressionNode(int data) {
 	    this.data = data;
 	}
 
-	
-	// data note has no children
-	public boolean isDataNode() {
+		public boolean isDataNode() {
 	    return left == null && right == null;
 	}
 
@@ -242,6 +222,7 @@ import java.util.List;
  * 
  * @author Mark Allen Weiss
  */
+
 public class AvlTree {
     public AvlTree() {
 	root = null;
@@ -392,20 +373,15 @@ public class Part2{
 	
 	try {
 	    
-	    // to read lines
 	    Scanner scanner = new Scanner(new File(fileName));
 	    
-	    // read line by line
 	    int lineNum = 0;
 	    while(scanner.hasNextLine()) {
 		lineNum++;
 		String line = scanner.nextLine();
-		// split line
 		String[] words = line.split("[ ]+");
 		
-		// words
 		for (String word : words) {
-		    // remove punctuation and ignore case
 		    word = word.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 		    tree.indexWord(word, lineNum); // add
 		}
