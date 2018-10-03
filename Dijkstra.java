@@ -1,5 +1,7 @@
 /*
- * For this project, my goal was to implement Dijkstra's algorithm to find shortest paths between pairs of cities on a map. I modified Dijkstra.java, a graph class to find the shortest path. Files Vertex.java, Edge.java, Display.java (displays graph in GUI), and citypairs.txt for the text input files were provided.
+ * For this project, my goal was to implement Dijkstra's algorithm to find shortest paths between pairs of cities on a map. 
+ I modified Dijkstra.java, a graph class to find the shortest path.
+ Files Vertex.java, Edge.java, Display.java (displays graph in GUI), and citypairs.txt for the text input files were provided.
  */
 
 /*
