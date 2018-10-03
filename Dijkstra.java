@@ -103,7 +103,7 @@ public class Dijkstra {
 	addEdge(nameV, nameU, cost);
     }
 
-    // STUDENT CODE STARTS HERE
+    // MY CODE STARTS HERE
 
     /**
      * Computes the euclidean distance between two points as described by their
