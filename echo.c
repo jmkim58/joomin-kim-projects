@@ -56,9 +56,6 @@ void freeDuplicatedArgs(char **copy)
     free(copy);
 }
 
-/*
- * DO NOT MODIFY main().
- */
 int main(int argc, char **argv)
 {
     if (argc <= 1)
