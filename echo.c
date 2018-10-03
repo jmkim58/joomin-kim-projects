@@ -1,5 +1,6 @@
 /*
- * For this project, my goal was to write a program that takes words as command line arguments and prints each word twice, once as it is and once all-capitalized, separated by  space.
+ * For this project, my goal was to write a program that takes words as command line arguments and prints each word twice, 
+ once as it is and once all-capitalized, separated by space.
  */
 
 /*
