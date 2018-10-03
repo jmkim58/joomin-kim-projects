@@ -1,6 +1,13 @@
 /*
- * For the first part of this project, my goal was to implement an expression tree. After constructing the ExpressionTree, I provided different methods that return different ouput when invoked on an expression tree. ExpressionTreeInstantiate.java instantiates an expression tree on a hard coded string representing a postfix expression tree and demonstrates all of the aforementioned methods. 
- * For the second part of this project, my goal was to index text with an AVL tree. The program goes through the input file line by line, extracting each word, and inserting that word, along with it's number line to the AVL tree. The file being indexed then gets passed into the program as a command line argument. There are various methods involved for indexing. When indexing is complete, the program calls upon a method to display a list of unique words in teh text file and the line numbers in which that word occurs.
+ * For the first part of this project, my goal was to implement an expression tree. After constructing the ExpressionTree,
+ I provided different methods that return different ouput when invoked on an expression tree. ExpressionTreeInstantiate.java
+ instantiates an expression tree on a hard coded string representing a postfix expression tree and demonstrates all of the
+ aforementioned methods. 
+ * For the second part of this project, my goal was to index text with an AVL tree. The program goes through the input file
+ line by line, extracting each word, and inserting that word, along with it's number line to the AVL tree. The file being
+ indexed then gets passed into the program as a command line argument. There are various methods involved for indexing.
+ When indexing is complete, the program calls upon a method to display a list of unique words in teh text file and the
+ line numbers in which that word occurs.
  */  
 
 /*
