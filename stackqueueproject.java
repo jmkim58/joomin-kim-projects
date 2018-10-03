@@ -1,7 +1,13 @@
 /*
- * For the first part of this project, I had to write a program that outputs whether or not symbols (input) are appropriately balanced and if not, indicate which error condition occurred and what symbol type caused the problem. I wrote MyStack.java and SymbolBalance.java. In the implementation of my stack methods, I only used basic list operations, not the stack operations themselves.
+ * For the first part of this project, I had to write a program that outputs whether or not symbols (input) are appropriately
+ balanced and if not, indicate which error condition occurred and what symbol type caused the problem.
+ I wrote MyStack.java and SymbolBalance.java. In the implementation of my stack methods, I only used basic list operations,
+ not the stack operations themselves.
  *
- * For the second part of this project, I built a queue out of two seperate stacks, S1 and S2. Enqueue operations happened by pushing data onto stack 1 while dequeue operations were completed with a pop from stack 2. I wrote TwoSTackQueue.java that provides the Queue ADT using two stacks and a tester class with a main method ot test out TwoStackQueue. I also discussed the big-O running time of the enqueue and dequeue operation.
+ * For the second part of this project, I built a queue out of two seperate stacks, S1 and S2.
+ Enqueue operations happened by pushing data onto stack 1 while dequeue operations were completed with a pop from stack 2.
+ I wrote TwoSTackQueue.java that provides the Queue ADT using two stacks and a tester class with a main method ot test out
+ TwoStackQueue. I also discussed the big-O running time of the enqueue and dequeue operation.
  */
 
 
