@@ -1,5 +1,9 @@
 /*
- * For this project, my goal was to write a program that dynamically allocates an array o integers assuming that the user will input a positive integer. The elements of the array will be filled using random() function. After filling the array with random numbers, the program makes a copy of the array, and sorts the new array in ascending order. Then, pthe program makes a second copy of the original array and sorts it in descending array. Finaly, the program prints out all three arrays (used malloc() library function to separately allocate the three arrays.
+ * For this project, my goal was to write a program that dynamically allocates an array o integers assuming that the user
+ will input a positive integer. The elements of the array will be filled using random() function. After filling the array
+ with random numbers, the program makes a copy of the array, and sorts the new array in ascending order.
+ Then, pthe program makes a second copy of the original array and sorts it in descending array. Finaly, the program prints
+ out all three arrays (used malloc() library function to separately allocate the three arrays.
  */
 
 /*
