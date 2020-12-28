@@ -1,0 +1,34 @@
+{ "processes" : 
+	[{
+		"process_name": "process1",
+		"priority": 100,
+		"cpu_needed" : 5
+	},
+	{
+		"process_name": "process2",
+		"priority" : 0,
+		"cpu_needed" : 3
+	},
+	{
+		"process_name": "process3",
+		"priority" : 100,
+		"cpu_needed" : 3
+	},
+	{
+		"process_name": "process4",
+		"priority" : 100,
+		"cpu_needed" : 3
+	},
+	{
+		"process_name": "process5",
+		"priority" : 100,
+		"cpu_needed" : 3
+	},
+	{
+		"process_name": "process6",
+		"priority" : 100,
+		"cpu_needed" : 3
+	}
+
+]
+}
