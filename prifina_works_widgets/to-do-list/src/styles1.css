@@ -1,0 +1,39 @@
+.progressContainer {
+    transform: rotate(90deg);
+  }
+  
+  @font-face {
+    font-family: "Roboto", sans-serif;
+    src: local("Roboto"),
+    url("./src/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Fredoka One", cursive;
+    src: local("FredokaOne"),
+    url("./src/fonts/FredokaOne-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Dawining of a New Day", "Fredoka One", "Roboto";
+    src: url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Fredoka+One&family=Homemade+Apple&family=Roboto:wght@300;400;900&display=swap');
+  }
+  
+  .listBox {
+    font-family: "Roboto-Regular";
+  }
+  
+  .body {
+    font-family: "Fredoka One", cursive;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: left;
+    font-family: "Fredoka One", cursive;
+  }
+  
+  .toDoListMain{
+    font-family: "Fredoka One", cursive;
+  }
